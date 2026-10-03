@@ -1,21 +1,42 @@
-# Echo: Music Player
+<div align="center">
 
-<p>
-An Extension-based Music Player for Android, designed with a clean and intuitive UI.
-</p>
+<img src="https://i.ibb.co/JjcKTBgG/White-Icon.png" width="120" alt="Orion logo" />
 
-> [!NOTE]
+# Orion Nightly
+
+**Orion Nightly based on Echo Nightly.**
+
+
+![Platform](https://img.shields.io/badge/Android%20TV%20·%20Google%20TV-3DDC84?logo=android&logoColor=white)
+
+
+<div align="left">
+  
+# Description of this project
+
+ [EN] Based on Echo Nightly, the fork of Echo Player , designed with a clean and Intuitive UI.
+> This is a rebranding plus a reconstruction "adaptation" to work on Android TV
+100% integration with the D-pad.
+>
+ [ES] Basado en Echo Nightly, la bifurcación de Echo Player, diseñado con Intuitive UI
+> Este es un Rebranding más la reconstrucción "Adaptación" para que funcione en Android TV
+integración al 100% con el Dpad.
+
+
+<div align="center">
+  
+# WARNING DISCLAIMER
+
+<div align="left">
+
+# [EN]
 > The developer of this application is not liable for any misuse or legal issues arising from its
 > use and is not affiliated with any content providers. This application hosts zero content.
 >
 > Echo is intended for offline use only by default; the user manages any external sources. Echo does
 > not condone or supports piracy.
 
-## Development
-The focus of the app has now been shifted to be [Multiplatform](https://github.com/brahmkshatriya/echo/tree/compose) (using compose). That means Echo Desktop and a remake of Android app is under development. If you still want to download the old version, you can look around in the discord server.
-
-## Official Communities
-
-Join our communities to stay updated and contribute to the discussion:
-
-<a href="https://discord.gg/J3WvbBUU8Z" style="margin-right: 10px; display: inline-block;"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png" alt="Discord" height="40" style="vertical-align: middle;"></a>
+# [ES]
+> El desarrollador de esta aplicación no se hace responsable de ningún uso indebido ni de los problemas legales derivados de su uso, y no está afiliado a ningún proveedor de contenido.
+> 
+> Esta aplicación no aloja ningún contenido.
