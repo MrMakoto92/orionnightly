@@ -1,15 +1,15 @@
-package dev.brahmkshatriya.echo.download.tasks
+package dev.orionlabs.orionmusic.download.tasks
 
 import android.content.Context
-import dev.brahmkshatriya.echo.common.clients.TrackClient
-import dev.brahmkshatriya.echo.common.models.Progress
-import dev.brahmkshatriya.echo.common.models.Track
-import dev.brahmkshatriya.echo.download.Downloader
-import dev.brahmkshatriya.echo.download.db.models.TaskType
-import dev.brahmkshatriya.echo.download.tasks.TaskManager.Companion.toQueueItem
-import dev.brahmkshatriya.echo.extensions.ExtensionUtils.getAs
-import dev.brahmkshatriya.echo.extensions.ExtensionUtils.getExtensionOrThrow
-import dev.brahmkshatriya.echo.utils.Serializer.toJson
+import dev.orionlabs.orionmusic.common.clients.TrackClient
+import dev.orionlabs.orionmusic.common.models.Progress
+import dev.orionlabs.orionmusic.common.models.Track
+import dev.orionlabs.orionmusic.download.Downloader
+import dev.orionlabs.orionmusic.download.db.models.TaskType
+import dev.orionlabs.orionmusic.download.tasks.TaskManager.Companion.toQueueItem
+import dev.orionlabs.orionmusic.extensions.ExtensionUtils.getAs
+import dev.orionlabs.orionmusic.extensions.ExtensionUtils.getExtensionOrThrow
+import dev.orionlabs.orionmusic.utils.Serializer.toJson
 
 class LoadingTask(
     private val context: Context,
