@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback.source
+package dev.orionlabs.orionmusic.playback.source
 
 import android.net.Uri
 import androidx.annotation.OptIn
@@ -6,7 +6,7 @@ import androidx.media3.common.util.UnstableApi
 import androidx.media3.datasource.BaseDataSource
 import androidx.media3.datasource.DataSource
 import androidx.media3.datasource.DataSpec
-import dev.brahmkshatriya.echo.common.models.Streamable
+import dev.orionlabs.orionmusic.common.models.Streamable
 import kotlinx.coroutines.runBlocking
 import java.io.InputStream
 
