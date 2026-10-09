@@ -1,7 +1,7 @@
-package dev.brahmkshatriya.echo.extensions.repo
+package dev.orionlabs.orionmusic.extensions.repo
 
-import dev.brahmkshatriya.echo.common.clients.ExtensionClient
-import dev.brahmkshatriya.echo.common.models.Metadata
+import dev.orionlabs.orionmusic.common.clients.ExtensionClient
+import dev.orionlabs.orionmusic.common.models.Metadata
 import kotlinx.coroutines.flow.Flow
 
 interface ExtensionRepository {
