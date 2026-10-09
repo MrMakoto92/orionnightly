@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback.listener
+package dev.orionlabs.orionmusic.playback.listener
 
 import android.content.Context
 import android.media.AudioAttributes
