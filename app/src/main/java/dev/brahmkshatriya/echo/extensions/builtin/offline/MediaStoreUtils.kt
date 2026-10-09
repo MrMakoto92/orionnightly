@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.extensions.builtin.offline
+package dev.orionlabs.orionmusic.extensions.builtin.offline
 
 import android.content.ContentUris
 import android.content.ContentValues
@@ -14,16 +14,16 @@ import androidx.core.database.getIntOrNull
 import androidx.core.database.getLongOrNull
 import androidx.core.database.getStringOrNull
 import androidx.core.net.toUri
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.models.Album
-import dev.brahmkshatriya.echo.common.models.Artist
-import dev.brahmkshatriya.echo.common.models.Date.Companion.toYearDate
-import dev.brahmkshatriya.echo.common.models.ImageHolder.Companion.toResourceUriImageHolder
-import dev.brahmkshatriya.echo.common.models.Streamable
-import dev.brahmkshatriya.echo.common.models.Track
-import dev.brahmkshatriya.echo.common.settings.Settings
-import dev.brahmkshatriya.echo.extensions.builtin.offline.MediaStoreUtils.getAllSongs
-import dev.brahmkshatriya.echo.extensions.builtin.unified.UnifiedExtension.Companion.EXTENSION_ID
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.common.models.Album
+import dev.orionlabs.orionmusic.common.models.Artist
+import dev.orionlabs.orionmusic.common.models.Date.Companion.toYearDate
+import dev.orionlabs.orionmusic.common.models.ImageHolder.Companion.toResourceUriImageHolder
+import dev.orionlabs.orionmusic.common.models.Streamable
+import dev.orionlabs.orionmusic.common.models.Track
+import dev.orionlabs.orionmusic.common.settings.Settings
+import dev.orionlabs.orionmusic.extensions.builtin.offline.MediaStoreUtils.getAllSongs
+import dev.orionlabs.orionmusic.extensions.builtin.unified.UnifiedExtension.Companion.EXTENSION_ID
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
