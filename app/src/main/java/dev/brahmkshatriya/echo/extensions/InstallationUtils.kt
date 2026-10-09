@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.extensions
+package dev.orionlabs.orionmusic.extensions
 
 import android.app.Activity
 import android.content.Context
@@ -8,10 +8,10 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.FileProvider
 import androidx.core.net.toUri
 import androidx.fragment.app.FragmentActivity
-import dev.brahmkshatriya.echo.extensions.repo.ExtensionParser.Companion.PACKAGE_FLAGS
-import dev.brahmkshatriya.echo.extensions.repo.FileRepository.Companion.getExtensionsFileDir
-import dev.brahmkshatriya.echo.utils.ContextUtils.getTempFile
-import dev.brahmkshatriya.echo.utils.PermsUtils.registerActivityResultLauncher
+import dev.orionlabs.orionmusic.extensions.repo.ExtensionParser.Companion.PACKAGE_FLAGS
+import dev.orionlabs.orionmusic.extensions.repo.FileRepository.Companion.getExtensionsFileDir
+import dev.orionlabs.orionmusic.utils.ContextUtils.getTempFile
+import dev.orionlabs.orionmusic.utils.PermsUtils.registerActivityResultLauncher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.suspendCancellableCoroutine
