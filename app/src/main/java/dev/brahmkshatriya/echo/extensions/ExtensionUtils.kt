@@ -1,16 +1,16 @@
-package dev.brahmkshatriya.echo.extensions
+package dev.orionlabs.orionmusic.extensions
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import dev.brahmkshatriya.echo.common.Extension
-import dev.brahmkshatriya.echo.common.clients.ExtensionClient
-import dev.brahmkshatriya.echo.common.helpers.ClientException
-import dev.brahmkshatriya.echo.common.models.Metadata
-import dev.brahmkshatriya.echo.common.settings.Settings
-import dev.brahmkshatriya.echo.extensions.exceptions.AppException.Companion.toAppException
-import dev.brahmkshatriya.echo.extensions.exceptions.ExtensionNotFoundException
-import dev.brahmkshatriya.echo.utils.ContextUtils.getSettings
+import dev.orionlabs.orionmusic.common.Extension
+import dev.orionlabs.orionmusic.common.clients.ExtensionClient
+import dev.orionlabs.orionmusic.common.helpers.ClientException
+import dev.orionlabs.orionmusic.common.models.Metadata
+import dev.orionlabs.orionmusic.common.settings.Settings
+import dev.orionlabs.orionmusic.extensions.exceptions.AppException.Companion.toAppException
+import dev.orionlabs.orionmusic.extensions.exceptions.ExtensionNotFoundException
+import dev.orionlabs.orionmusic.utils.ContextUtils.getSettings
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow
