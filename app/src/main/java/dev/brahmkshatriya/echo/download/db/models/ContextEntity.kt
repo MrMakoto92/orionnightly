@@ -1,9 +1,9 @@
-package dev.brahmkshatriya.echo.download.db.models
+package dev.orionlabs.orionmusic.download.db.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import dev.brahmkshatriya.echo.common.models.EchoMediaItem
-import dev.brahmkshatriya.echo.utils.Serializer.toData
+import dev.orionlabs.orionmusic.common.models.EchoMediaItem
+import dev.orionlabs.orionmusic.utils.Serializer.toData
 
 @Entity
 data class ContextEntity(
