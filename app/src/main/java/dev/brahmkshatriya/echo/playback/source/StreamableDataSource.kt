@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback.source
+package dev.orionlabs.orionmusic.playback.source
 
 import android.content.Context
 import androidx.core.net.toUri
@@ -8,8 +8,8 @@ import androidx.media3.datasource.DataSource
 import androidx.media3.datasource.DataSpec
 import androidx.media3.datasource.DefaultDataSource
 import androidx.media3.datasource.DefaultHttpDataSource
-import dev.brahmkshatriya.echo.common.models.Streamable
-import dev.brahmkshatriya.echo.playback.source.StreamableResolver.Companion.copy
+import dev.orionlabs.orionmusic.common.models.Streamable
+import dev.orionlabs.orionmusic.playback.source.StreamableResolver.Companion.copy
 
 @UnstableApi
 class StreamableDataSource(
