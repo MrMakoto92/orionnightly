@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback.renderer
+package dev.orionlabs.orionmusic.playback.renderer
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -8,10 +8,10 @@ import androidx.core.graphics.drawable.toBitmapOrNull
 import androidx.media3.common.util.BitmapLoader
 import androidx.media3.common.util.UnstableApi
 import com.google.common.util.concurrent.ListenableFuture
-import dev.brahmkshatriya.echo.common.models.ImageHolder
-import dev.brahmkshatriya.echo.utils.CoroutineUtils.futureCatching
-import dev.brahmkshatriya.echo.utils.Serializer.toData
-import dev.brahmkshatriya.echo.utils.image.ImageUtils.loadDrawable
+import dev.orionlabs.orionmusic.common.models.ImageHolder
+import dev.orionlabs.orionmusic.utils.CoroutineUtils.futureCatching
+import dev.orionlabs.orionmusic.utils.Serializer.toData
+import dev.orionlabs.orionmusic.utils.image.ImageUtils.loadDrawable
 import kotlinx.coroutines.CoroutineScope
 
 @UnstableApi
