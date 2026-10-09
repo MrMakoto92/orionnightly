@@ -1,7 +1,7 @@
-package dev.brahmkshatriya.echo.download.tasks
+package dev.orionlabs.orionmusic.download.tasks
 
-import dev.brahmkshatriya.echo.download.Downloader
-import dev.brahmkshatriya.echo.download.db.models.TaskType
+import dev.orionlabs.orionmusic.download.Downloader
+import dev.orionlabs.orionmusic.download.db.models.TaskType
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
