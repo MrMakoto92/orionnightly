@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback.renderer
+package dev.orionlabs.orionmusic.playback.renderer
 
 import android.content.Context
 import androidx.media3.common.audio.SonicAudioProcessor
