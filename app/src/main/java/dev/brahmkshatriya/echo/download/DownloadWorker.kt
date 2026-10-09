@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.download
+package dev.orionlabs.orionmusic.download
 
 import android.app.PendingIntent
 import android.content.Context
@@ -14,8 +14,8 @@ import androidx.media3.common.util.UnstableApi
 import androidx.work.CoroutineWorker
 import androidx.work.ForegroundInfo
 import androidx.work.WorkerParameters
-import dev.brahmkshatriya.echo.MainActivity.Companion.getMainActivity
-import dev.brahmkshatriya.echo.R
+import dev.orionlabs.orionmusic.MainActivity.Companion.getMainActivity
+import dev.orionlabs.orionmusic.R
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
