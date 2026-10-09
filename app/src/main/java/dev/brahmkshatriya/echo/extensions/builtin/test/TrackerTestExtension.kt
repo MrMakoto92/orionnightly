@@ -1,12 +1,12 @@
-package dev.brahmkshatriya.echo.extensions.builtin.test
+package dev.orionlabs.orionmusic.extensions.builtin.test
 
-import dev.brahmkshatriya.echo.common.clients.TrackerMarkClient
-import dev.brahmkshatriya.echo.common.models.ExtensionType
-import dev.brahmkshatriya.echo.common.models.ImportType
-import dev.brahmkshatriya.echo.common.models.Metadata
-import dev.brahmkshatriya.echo.common.models.TrackDetails
-import dev.brahmkshatriya.echo.common.settings.Setting
-import dev.brahmkshatriya.echo.common.settings.Settings
+import dev.orionlabs.orionmusic.common.clients.TrackerMarkClient
+import dev.orionlabs.orionmusic.common.models.ExtensionType
+import dev.orionlabs.orionmusic.common.models.ImportType
+import dev.orionlabs.orionmusic.common.models.Metadata
+import dev.orionlabs.orionmusic.common.models.TrackDetails
+import dev.orionlabs.orionmusic.common.settings.Setting
+import dev.orionlabs.orionmusic.common.settings.Settings
 
 class TrackerTestExtension : TrackerMarkClient {
     companion object {
