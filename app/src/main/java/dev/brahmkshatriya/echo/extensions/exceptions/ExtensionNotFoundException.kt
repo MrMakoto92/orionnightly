@@ -1,3 +1,3 @@
-package dev.brahmkshatriya.echo.extensions.exceptions
+package dev.orionlabs.orionmusic.extensions.exceptions
 
 class ExtensionNotFoundException(val id: String?) : Exception("Extension not found: $id")
