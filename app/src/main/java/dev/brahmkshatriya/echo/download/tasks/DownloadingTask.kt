@@ -1,9 +1,9 @@
-package dev.brahmkshatriya.echo.download.tasks
+package dev.orionlabs.orionmusic.download.tasks
 
 import android.content.Context
-import dev.brahmkshatriya.echo.download.Downloader
-import dev.brahmkshatriya.echo.download.db.models.TaskType
-import dev.brahmkshatriya.echo.utils.Serializer.toJson
+import dev.orionlabs.orionmusic.download.Downloader
+import dev.orionlabs.orionmusic.download.db.models.TaskType
+import dev.orionlabs.orionmusic.utils.Serializer.toJson
 
 class DownloadingTask(
     context: Context,
