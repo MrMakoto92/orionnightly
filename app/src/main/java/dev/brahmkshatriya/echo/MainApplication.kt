@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo
+package dev.orionlabs.orionmusic
 
 import android.app.Application
 import android.content.Context
@@ -17,10 +17,10 @@ import coil3.disk.directory
 import coil3.memory.MemoryCache
 import coil3.request.allowHardware
 import coil3.request.crossfade
-import dev.brahmkshatriya.echo.di.DI
-import dev.brahmkshatriya.echo.extensions.ExtensionLoader
-import dev.brahmkshatriya.echo.utils.AppShortcuts.configureAppShortcuts
-import dev.brahmkshatriya.echo.utils.CoroutineUtils
+import dev.orionlabs.orionmusic.di.DI
+import dev.orionlabs.orionmusic.extensions.ExtensionLoader
+import dev.orionlabs.orionmusic.utils.AppShortcuts.configureAppShortcuts
+import dev.orionlabs.orionmusic.utils.CoroutineUtils
 import org.koin.android.ext.android.inject
 import org.koin.android.ext.koin.androidContext
 import org.koin.androidx.workmanager.koin.workManagerFactory
