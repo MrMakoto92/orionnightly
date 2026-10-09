@@ -1,13 +1,13 @@
-package dev.brahmkshatriya.echo.extensions.db
+package dev.orionlabs.orionmusic.extensions.db
 
 import android.app.Application
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import dev.brahmkshatriya.echo.common.models.User
-import dev.brahmkshatriya.echo.extensions.db.models.CurrentUser
-import dev.brahmkshatriya.echo.extensions.db.models.ExtensionEntity
-import dev.brahmkshatriya.echo.extensions.db.models.UserEntity
+import dev.orionlabs.orionmusic.common.models.User
+import dev.orionlabs.orionmusic.extensions.db.models.CurrentUser
+import dev.orionlabs.orionmusic.extensions.db.models.ExtensionEntity
+import dev.orionlabs.orionmusic.extensions.db.models.UserEntity
 
 @Database(
     entities = [
