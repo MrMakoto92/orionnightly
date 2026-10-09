@@ -1,8 +1,8 @@
-package dev.brahmkshatriya.echo.extensions.exceptions
+package dev.orionlabs.orionmusic.extensions.exceptions
 
-import dev.brahmkshatriya.echo.common.Extension
-import dev.brahmkshatriya.echo.common.helpers.ClientException
-import dev.brahmkshatriya.echo.common.models.Metadata
+import dev.orionlabs.orionmusic.common.Extension
+import dev.orionlabs.orionmusic.common.helpers.ClientException
+import dev.orionlabs.orionmusic.common.models.Metadata
 
 sealed class AppException : Exception() {
 
