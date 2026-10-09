@@ -1,3 +1,3 @@
-package dev.brahmkshatriya.echo.download.exceptions
+package dev.orionlabs.orionmusic.download.exceptions
 
 class DownloaderExtensionNotFoundException : Exception()
