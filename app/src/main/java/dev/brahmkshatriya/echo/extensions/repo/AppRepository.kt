@@ -1,15 +1,15 @@
-package dev.brahmkshatriya.echo.extensions.repo
+package dev.orionlabs.orionmusic.extensions.repo
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import androidx.core.content.ContextCompat
-import dev.brahmkshatriya.echo.common.clients.ExtensionClient
-import dev.brahmkshatriya.echo.common.models.ImportType
-import dev.brahmkshatriya.echo.common.models.Metadata
-import dev.brahmkshatriya.echo.extensions.repo.ExtensionParser.Companion.FEATURE
-import dev.brahmkshatriya.echo.extensions.repo.ExtensionParser.Companion.PACKAGE_FLAGS
+import dev.orionlabs.orionmusic.common.clients.ExtensionClient
+import dev.orionlabs.orionmusic.common.models.ImportType
+import dev.orionlabs.orionmusic.common.models.Metadata
+import dev.orionlabs.orionmusic.extensions.repo.ExtensionParser.Companion.FEATURE
+import dev.orionlabs.orionmusic.extensions.repo.ExtensionParser.Companion.PACKAGE_FLAGS
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.channelFlow
