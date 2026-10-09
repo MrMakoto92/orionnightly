@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback.exceptions
+package dev.orionlabs.orionmusic.playback.exceptions
 
 import androidx.media3.common.MediaItem
 
