@@ -1,12 +1,12 @@
-package dev.brahmkshatriya.echo.download.db
+package dev.orionlabs.orionmusic.download.db
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy.Companion.REPLACE
 import androidx.room.Query
-import dev.brahmkshatriya.echo.download.db.models.ContextEntity
-import dev.brahmkshatriya.echo.download.db.models.DownloadEntity
+import dev.orionlabs.orionmusic.download.db.models.ContextEntity
+import dev.orionlabs.orionmusic.download.db.models.DownloadEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
