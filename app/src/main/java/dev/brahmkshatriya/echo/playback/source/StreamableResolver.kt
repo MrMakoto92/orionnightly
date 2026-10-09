@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback.source
+package dev.orionlabs.orionmusic.playback.source
 
 import android.content.Context
 import android.net.Uri
@@ -6,10 +6,10 @@ import androidx.annotation.OptIn
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.datasource.DataSpec
 import androidx.media3.datasource.ResolvingDataSource.Resolver
-import dev.brahmkshatriya.echo.common.models.Streamable
-import dev.brahmkshatriya.echo.playback.MediaItemUtils.toKey
-import dev.brahmkshatriya.echo.playback.source.StreamableDataSource.Companion.uri
-import dev.brahmkshatriya.echo.utils.CacheUtils.saveToCache
+import dev.orionlabs.orionmusic.common.models.Streamable
+import dev.orionlabs.orionmusic.playback.MediaItemUtils.toKey
+import dev.orionlabs.orionmusic.playback.source.StreamableDataSource.Companion.uri
+import dev.orionlabs.orionmusic.utils.CacheUtils.saveToCache
 import java.util.WeakHashMap
 
 class StreamableResolver(
