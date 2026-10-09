@@ -1,7 +1,7 @@
-package dev.brahmkshatriya.echo.download.exceptions
+package dev.orionlabs.orionmusic.download.exceptions
 
-import dev.brahmkshatriya.echo.download.db.models.DownloadEntity
-import dev.brahmkshatriya.echo.download.db.models.TaskType
+import dev.orionlabs.orionmusic.download.db.models.DownloadEntity
+import dev.orionlabs.orionmusic.download.db.models.TaskType
 
 data class DownloadException(
     val type: TaskType,
