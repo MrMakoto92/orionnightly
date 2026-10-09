@@ -1,7 +1,7 @@
-package dev.brahmkshatriya.echo.extensions.db.models
+package dev.orionlabs.orionmusic.extensions.db.models
 
 import androidx.room.Entity
-import dev.brahmkshatriya.echo.common.models.ExtensionType
+import dev.orionlabs.orionmusic.common.models.ExtensionType
 
 @Entity(primaryKeys = ["type", "extId"])
 data class CurrentUser(
