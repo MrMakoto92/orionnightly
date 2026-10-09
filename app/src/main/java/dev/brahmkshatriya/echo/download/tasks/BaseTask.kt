@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.download.tasks
+package dev.orionlabs.orionmusic.download.tasks
 
 import android.Manifest.permission.POST_NOTIFICATIONS
 import android.content.Context
@@ -12,18 +12,18 @@ import androidx.core.graphics.drawable.toBitmap
 import androidx.media3.common.util.NotificationUtil
 import androidx.media3.common.util.NotificationUtil.createNotificationChannel
 import androidx.media3.common.util.UnstableApi
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.clients.DownloadClient
-import dev.brahmkshatriya.echo.common.models.DownloadContext
-import dev.brahmkshatriya.echo.common.models.Progress
-import dev.brahmkshatriya.echo.download.DownloadWorker.Companion.getMainIntent
-import dev.brahmkshatriya.echo.download.Downloader
-import dev.brahmkshatriya.echo.download.db.models.TaskType
-import dev.brahmkshatriya.echo.download.exceptions.DownloadException
-import dev.brahmkshatriya.echo.extensions.ExtensionUtils.getAs
-import dev.brahmkshatriya.echo.ui.common.ExceptionUtils.toData
-import dev.brahmkshatriya.echo.utils.CoroutineUtils.throttleLatest
-import dev.brahmkshatriya.echo.utils.Serializer.toJson
+import dev.orionlabs.orionmusic.echo.R
+import dev.orionlabs.orionmusic.common.clients.DownloadClient
+import dev.orionlabs.orionmusic.common.models.DownloadContext
+import dev.orionlabs.orionmusic.common.models.Progress
+import dev.orionlabs.orionmusic.download.DownloadWorker.Companion.getMainIntent
+import dev.orionlabs.orionmusic.download.Downloader
+import dev.orionlabs.orionmusic.download.db.models.TaskType
+import dev.orionlabs.orionmusic.download.exceptions.DownloadException
+import dev.orionlabs.orionmusic.extensions.ExtensionUtils.getAs
+import dev.orionlabs.orionmusic.ui.common.ExceptionUtils.toData
+import dev.orionlabs.orionmusic.utils.CoroutineUtils.throttleLatest
+import dev.orionlabs.orionmusic.utils.Serializer.toJson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.withContext
