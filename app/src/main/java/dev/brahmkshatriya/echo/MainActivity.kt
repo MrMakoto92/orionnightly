@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo
+package dev.orionlabs.orionmusic
 
 import android.content.Context
 import android.graphics.Color.TRANSPARENT
@@ -13,21 +13,21 @@ import androidx.fragment.app.commit
 import com.google.android.material.color.DynamicColors
 import com.google.android.material.color.DynamicColorsOptions
 import com.google.android.material.navigation.NavigationBarView
-import dev.brahmkshatriya.echo.databinding.ActivityMainBinding
-import dev.brahmkshatriya.echo.extensions.ExtensionLoader
-import dev.brahmkshatriya.echo.ui.common.ExceptionUtils.setupExceptionHandler
-import dev.brahmkshatriya.echo.ui.common.FragmentUtils.setupIntents
-import dev.brahmkshatriya.echo.ui.common.SnackBarHandler.Companion.setupSnackBar
-import dev.brahmkshatriya.echo.ui.common.UiViewModel
-import dev.brahmkshatriya.echo.ui.common.UiViewModel.Companion.setupNavBarAndInsets
-import dev.brahmkshatriya.echo.ui.common.UiViewModel.Companion.setupPlayerBehavior
-import dev.brahmkshatriya.echo.ui.extensions.ExtensionsViewModel.Companion.configureExtensionsUpdater
-import dev.brahmkshatriya.echo.ui.main.MainFragment
-import dev.brahmkshatriya.echo.ui.player.PlayerFragment
-import dev.brahmkshatriya.echo.ui.player.PlayerFragment.Companion.PLAYER_COLOR
-import dev.brahmkshatriya.echo.utils.ContextUtils.getSettings
-import dev.brahmkshatriya.echo.utils.PermsUtils.checkAppPermissions
-import dev.brahmkshatriya.echo.utils.ui.UiUtils.isNightMode
+import dev.orionlabs.orionmusic.databinding.ActivityMainBinding
+import dev.orionlabs.orionmusic.extensions.ExtensionLoader
+import dev.orionlabs.orionmusic.ui.common.ExceptionUtils.setupExceptionHandler
+import dev.orionlabs.orionmusic.ui.common.FragmentUtils.setupIntents
+import dev.orionlabs.orionmusic.ui.common.SnackBarHandler.Companion.setupSnackBar
+import dev.orionlabs.orionmusic.ui.common.UiViewModel
+import dev.orionlabs.orionmusic.ui.common.UiViewModel.Companion.setupNavBarAndInsets
+import dev.orionlabs.orionmusic.ui.common.UiViewModel.Companion.setupPlayerBehavior
+import dev.orionlabs.orionmusic.ui.extensions.ExtensionsViewModel.Companion.configureExtensionsUpdater
+import dev.orionlabs.orionmusic.ui.main.MainFragment
+import dev.orionlabs.orionmusic.ui.player.PlayerFragment
+import dev.orionlabs.orionmusic.ui.player.PlayerFragment.Companion.PLAYER_COLOR
+import dev.orionlabs.orionmusic.utils.ContextUtils.getSettings
+import dev.orionlabs.orionmusic.utils.PermsUtils.checkAppPermissions
+import dev.orionlabs.orionmusic.utils.ui.UiUtils.isNightMode
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
