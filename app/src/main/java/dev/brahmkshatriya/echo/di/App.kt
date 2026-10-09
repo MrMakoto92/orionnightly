@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.di
+package dev.orionlabs.orionmusic.di
 
 import android.app.Application
 import android.content.Context.CONNECTIVITY_SERVICE
@@ -7,8 +7,8 @@ import android.net.ConnectivityManager
 import android.net.Network
 import com.mayakapps.kache.FileKache
 import com.mayakapps.kache.KacheStrategy
-import dev.brahmkshatriya.echo.common.models.Message
-import dev.brahmkshatriya.echo.common.models.NetworkConnection
+import dev.orionlabs.orionmusic.common.models.Message
+import dev.orionlabs.orionmusic.common.models.NetworkConnection
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Dispatchers
