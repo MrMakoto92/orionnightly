@@ -1,10 +1,10 @@
-package dev.brahmkshatriya.echo.extensions.db
+package dev.orionlabs.orionmusic.extensions.db
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import dev.brahmkshatriya.echo.extensions.db.models.ExtensionEntity
+import dev.orionlabs.orionmusic.extensions.db.models.ExtensionEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
