@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback.listener
+package dev.orionlabs.orionmusic.playback.listener
 
 import android.Manifest
 import android.app.NotificationChannel
@@ -11,7 +11,7 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.session.MediaSessionService.Listener
-import dev.brahmkshatriya.echo.R
+import dev.orionlabs.orionmusic.R
 
 @UnstableApi
 class MediaSessionServiceListener(
