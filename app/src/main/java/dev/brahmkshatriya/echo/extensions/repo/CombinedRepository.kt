@@ -1,8 +1,8 @@
-package dev.brahmkshatriya.echo.extensions.repo
+package dev.orionlabs.orionmusic.extensions.repo
 
 import android.content.Context
-import dev.brahmkshatriya.echo.common.clients.ExtensionClient
-import dev.brahmkshatriya.echo.common.models.Metadata
+import dev.orionlabs.orionmusic.common.clients.ExtensionClient
+import dev.orionlabs.orionmusic.common.models.Metadata
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharingStarted
