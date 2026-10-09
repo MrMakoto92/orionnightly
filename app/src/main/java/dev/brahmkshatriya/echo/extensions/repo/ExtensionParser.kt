@@ -1,16 +1,16 @@
-package dev.brahmkshatriya.echo.extensions.repo
+package dev.orionlabs.orionmusic.extensions.repo
 
 import android.content.Context
 import android.content.pm.FeatureInfo
 import android.content.pm.PackageManager
 import android.os.Build
-import dev.brahmkshatriya.echo.common.clients.ExtensionClient
-import dev.brahmkshatriya.echo.common.models.ExtensionType
-import dev.brahmkshatriya.echo.common.models.ImageHolder.Companion.toImageHolder
-import dev.brahmkshatriya.echo.common.models.ImportType
-import dev.brahmkshatriya.echo.common.models.Metadata
-import dev.brahmkshatriya.echo.extensions.exceptions.ExtensionLoaderException
-import dev.brahmkshatriya.echo.utils.ShaUtils.getSha256
+import dev.orionlabs.orionmusic.common.clients.ExtensionClient
+import dev.orionlabs.orionmusic.common.models.ExtensionType
+import dev.orionlabs.orionmusic.common.models.ImageHolder.Companion.toImageHolder
+import dev.orionlabs.orionmusic.common.models.ImportType
+import dev.orionlabs.orionmusic.common.models.Metadata
+import dev.orionlabs.orionmusic.extensions.exceptions.ExtensionLoaderException
+import dev.orionlabs.orionmusic.utils.ShaUtils.getSha256
 import java.io.File
 import java.util.WeakHashMap
 
@@ -89,7 +89,7 @@ class ExtensionParser(
                 PackageManager.GET_SIGNATURES or
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) PackageManager.GET_SIGNING_CERTIFICATES else 0
 
-        const val FEATURE = "dev.brahmkshatriya.echo."
+        const val FEATURE = "dev.orionlabs.orionmusic."
         private fun Array<FeatureInfo>.toExtensionType(): ExtensionType {
             val feature = first { it.name.startsWith(FEATURE) }
             val type = feature.name.substringAfter(FEATURE)
