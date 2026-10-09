@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.extensions.exceptions
+package dev.orionlabs.orionmusic.extensions.exceptions
 
 class ExtensionLoaderException(
     val clazz: String,
