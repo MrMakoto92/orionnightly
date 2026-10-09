@@ -1,10 +1,10 @@
-package dev.brahmkshatriya.echo.extensions.db.models
+package dev.orionlabs.orionmusic.extensions.db.models
 
 import androidx.room.Entity
-import dev.brahmkshatriya.echo.common.models.ExtensionType
-import dev.brahmkshatriya.echo.common.models.User
-import dev.brahmkshatriya.echo.utils.Serializer.toData
-import dev.brahmkshatriya.echo.utils.Serializer.toJson
+import dev.orionlabs.orionmusic.common.models.ExtensionType
+import dev.orionlabs.orionmusic.common.models.User
+import dev.orionlabs.orionmusic.utils.Serializer.toData
+import dev.orionlabs.orionmusic.utils.Serializer.toJson
 
 @Entity(primaryKeys = ["id", "type", "extId"])
 data class UserEntity(
