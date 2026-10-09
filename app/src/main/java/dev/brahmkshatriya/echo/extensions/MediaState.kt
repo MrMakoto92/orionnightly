@@ -1,6 +1,6 @@
-package dev.brahmkshatriya.echo.extensions
+package dev.orionlabs.orionmusic.extensions
 
-import dev.brahmkshatriya.echo.common.models.EchoMediaItem
+import dev.orionlabs.orionmusic.common.models.EchoMediaItem
 import kotlinx.serialization.Serializable
 
 @Serializable
