@@ -1,11 +1,11 @@
-package dev.brahmkshatriya.echo.download.db
+package dev.orionlabs.orionmusic.download.db
 
 import android.app.Application
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import dev.brahmkshatriya.echo.download.db.models.ContextEntity
-import dev.brahmkshatriya.echo.download.db.models.DownloadEntity
+import dev.orionlabs.orionmusic.download.db.models.ContextEntity
+import dev.orionlabs.orionmusic.download.db.models.DownloadEntity
 
 @Database(
     entities = [
