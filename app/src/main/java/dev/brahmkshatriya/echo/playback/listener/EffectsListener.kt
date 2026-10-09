@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback.listener
+package dev.orionlabs.orionmusic.playback.listener
 
 import android.content.Context
 import android.content.Intent
@@ -14,7 +14,7 @@ import androidx.media3.common.PlaybackParameters
 import androidx.media3.common.Player
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.ExoPlayer
-import dev.brahmkshatriya.echo.extensions.ExtensionUtils.copyTo
+import dev.orionlabs.orionmusic.extensions.ExtensionUtils.copyTo
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlin.math.pow
 import kotlin.math.roundToInt
