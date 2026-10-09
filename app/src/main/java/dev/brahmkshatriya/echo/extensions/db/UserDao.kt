@@ -1,13 +1,13 @@
-package dev.brahmkshatriya.echo.extensions.db
+package dev.orionlabs.orionmusic.extensions.db
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import dev.brahmkshatriya.echo.common.models.ExtensionType
-import dev.brahmkshatriya.echo.extensions.db.models.CurrentUser
-import dev.brahmkshatriya.echo.extensions.db.models.UserEntity
+import dev.orionlabs.orionmusic.common.models.ExtensionType
+import dev.orionlabs.orionmusic.extensions.db.models.CurrentUser
+import dev.orionlabs.orionmusic.extensions.db.models.UserEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
