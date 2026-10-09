@@ -1,20 +1,20 @@
-package dev.brahmkshatriya.echo.extensions.builtin.offline
+package dev.orionlabs.orionmusic.extensions.builtin.offline
 
 import android.content.Context
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.helpers.PagedData
-import dev.brahmkshatriya.echo.common.models.Album
-import dev.brahmkshatriya.echo.common.models.Artist
-import dev.brahmkshatriya.echo.common.models.Date
-import dev.brahmkshatriya.echo.common.models.Date.Companion.toYearDate
-import dev.brahmkshatriya.echo.common.models.Feed
-import dev.brahmkshatriya.echo.common.models.Feed.Companion.toFeed
-import dev.brahmkshatriya.echo.common.models.ImageHolder.Companion.toResourceImageHolder
-import dev.brahmkshatriya.echo.common.models.ImageHolder.Companion.toResourceUriImageHolder
-import dev.brahmkshatriya.echo.common.models.Playlist
-import dev.brahmkshatriya.echo.common.models.Shelf
-import dev.brahmkshatriya.echo.common.models.Track
-import dev.brahmkshatriya.echo.extensions.builtin.unified.UnifiedExtension.Companion.EXTENSION_ID
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.common.helpers.PagedData
+import dev.orionlabs.orionmusic.common.models.Album
+import dev.orionlabs.orionmusic.common.models.Artist
+import dev.orionlabs.orionmusic.common.models.Date
+import dev.orionlabs.orionmusic.common.models.Date.Companion.toYearDate
+import dev.orionlabs.orionmusic.common.models.Feed
+import dev.orionlabs.orionmusic.common.models.Feed.Companion.toFeed
+import dev.orionlabs.orionmusic.common.models.ImageHolder.Companion.toResourceImageHolder
+import dev.orionlabs.orionmusic.common.models.ImageHolder.Companion.toResourceUriImageHolder
+import dev.orionlabs.orionmusic.common.models.Playlist
+import dev.orionlabs.orionmusic.common.models.Shelf
+import dev.orionlabs.orionmusic.common.models.Track
+import dev.orionlabs.orionmusic.extensions.builtin.unified.UnifiedExtension.Companion.EXTENSION_ID
 
 fun MediaStoreUtils.MAlbum.toAlbum() = Album(
     id.toString(),
