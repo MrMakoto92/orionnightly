@@ -1,12 +1,12 @@
-package dev.brahmkshatriya.echo.extensions
+package dev.orionlabs.orionmusic.extensions
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import dev.brahmkshatriya.echo.MainActivity.Companion.getMainActivity
-import dev.brahmkshatriya.echo.common.helpers.WebViewClient
-import dev.brahmkshatriya.echo.common.helpers.WebViewRequest
-import dev.brahmkshatriya.echo.common.models.Metadata
+import dev.orionlabs.orionmusic.MainActivity.Companion.getMainActivity
+import dev.orionlabs.orionmusic.common.helpers.WebViewClient
+import dev.orionlabs.orionmusic.common.helpers.WebViewRequest
+import dev.orionlabs.orionmusic.common.models.Metadata
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.first
 
