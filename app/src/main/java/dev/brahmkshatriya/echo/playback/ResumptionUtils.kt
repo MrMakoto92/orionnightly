@@ -1,19 +1,19 @@
-package dev.brahmkshatriya.echo.playback
+package dev.orionlabs.orionmusic.playback
 
 import android.content.Context
 import androidx.media3.common.C
 import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
-import dev.brahmkshatriya.echo.common.models.EchoMediaItem
-import dev.brahmkshatriya.echo.common.models.Track
-import dev.brahmkshatriya.echo.di.App
-import dev.brahmkshatriya.echo.download.Downloader
-import dev.brahmkshatriya.echo.extensions.MediaState
-import dev.brahmkshatriya.echo.playback.MediaItemUtils.context
-import dev.brahmkshatriya.echo.playback.MediaItemUtils.extensionId
-import dev.brahmkshatriya.echo.playback.MediaItemUtils.track
-import dev.brahmkshatriya.echo.utils.CacheUtils.getFromCache
-import dev.brahmkshatriya.echo.utils.CacheUtils.saveToCache
+import dev.orionlabs.orionmusic.common.models.EchoMediaItem
+import dev.orionlabs.orionmusic.common.models.Track
+import dev.orionlabs.orionmusic.di.App
+import dev.orionlabs.orionmusic.download.Downloader
+import dev.orionlabs.orionmusic.extensions.MediaState
+import dev.orionlabs.orionmusic.playback.MediaItemUtils.context
+import dev.orionlabs.orionmusic.playback.MediaItemUtils.extensionId
+import dev.orionlabs.orionmusic.playback.MediaItemUtils.track
+import dev.orionlabs.orionmusic.utils.CacheUtils.getFromCache
+import dev.orionlabs.orionmusic.utils.CacheUtils.saveToCache
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
