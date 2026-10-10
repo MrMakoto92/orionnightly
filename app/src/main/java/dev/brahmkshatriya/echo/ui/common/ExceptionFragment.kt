@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.common
+package dev.orionlabs.orionmusic.ui.common
 
 import android.app.Activity
 import android.os.Build
@@ -9,20 +9,20 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.databinding.FragmentExceptionBinding
-import dev.brahmkshatriya.echo.ui.common.ExceptionUtils.getPasteLink
-import dev.brahmkshatriya.echo.ui.common.SnackBarHandler.Companion.createSnack
-import dev.brahmkshatriya.echo.ui.common.UiViewModel.Companion.applyBackPressCallback
-import dev.brahmkshatriya.echo.ui.common.UiViewModel.Companion.applyContentInsets
-import dev.brahmkshatriya.echo.ui.common.UiViewModel.Companion.applyFabInsets
-import dev.brahmkshatriya.echo.ui.common.UiViewModel.Companion.applyInsets
-import dev.brahmkshatriya.echo.utils.ContextUtils.copyToClipboard
-import dev.brahmkshatriya.echo.utils.Serializer.getSerialized
-import dev.brahmkshatriya.echo.utils.Serializer.putSerialized
-import dev.brahmkshatriya.echo.utils.ui.AnimationUtils.setupTransition
-import dev.brahmkshatriya.echo.utils.ui.AutoClearedValue.Companion.autoCleared
-import dev.brahmkshatriya.echo.utils.ui.UiUtils.configureAppBar
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.databinding.FragmentExceptionBinding
+import dev.orionlabs.orionmusic.ui.common.ExceptionUtils.getPasteLink
+import dev.orionlabs.orionmusic.ui.common.SnackBarHandler.Companion.createSnack
+import dev.orionlabs.orionmusic.ui.common.UiViewModel.Companion.applyBackPressCallback
+import dev.orionlabs.orionmusic.ui.common.UiViewModel.Companion.applyContentInsets
+import dev.orionlabs.orionmusic.ui.common.UiViewModel.Companion.applyFabInsets
+import dev.orionlabs.orionmusic.ui.common.UiViewModel.Companion.applyInsets
+import dev.orionlabs.orionmusic.utils.ContextUtils.copyToClipboard
+import dev.orionlabs.orionmusic.utils.Serializer.getSerialized
+import dev.orionlabs.orionmusic.utils.Serializer.putSerialized
+import dev.orionlabs.orionmusic.utils.ui.AnimationUtils.setupTransition
+import dev.orionlabs.orionmusic.utils.ui.AutoClearedValue.Companion.autoCleared
+import dev.orionlabs.orionmusic.utils.ui.UiUtils.configureAppBar
 import kotlinx.coroutines.launch
 
 class ExceptionFragment : Fragment() {
