@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback
+package dev.orionlabs.orionmusic.playback
 
 import androidx.annotation.OptIn
 import androidx.media3.common.ForwardingPlayer
