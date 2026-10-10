@@ -1,26 +1,26 @@
-package dev.brahmkshatriya.echo.ui.download
+package dev.orionlabs.orionmusic.ui.download
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.DiffUtil
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.Extension
-import dev.brahmkshatriya.echo.common.models.Progress
-import dev.brahmkshatriya.echo.databinding.ItemDownloadBinding
-import dev.brahmkshatriya.echo.databinding.ItemDownloadTaskBinding
-import dev.brahmkshatriya.echo.download.Downloader
-import dev.brahmkshatriya.echo.download.db.models.ContextEntity
-import dev.brahmkshatriya.echo.download.db.models.DownloadEntity
-import dev.brahmkshatriya.echo.download.db.models.TaskType
-import dev.brahmkshatriya.echo.download.tasks.BaseTask.Companion.getTitle
-import dev.brahmkshatriya.echo.ui.common.ExceptionUtils
-import dev.brahmkshatriya.echo.ui.common.GridAdapter
-import dev.brahmkshatriya.echo.utils.image.ImageUtils.loadAsCircle
-import dev.brahmkshatriya.echo.utils.image.ImageUtils.loadInto
-import dev.brahmkshatriya.echo.utils.ui.scrolling.ScrollAnimListAdapter
-import dev.brahmkshatriya.echo.utils.ui.scrolling.ScrollAnimViewHolder
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.common.Extension
+import dev.orionlabs.orionmusic.common.models.Progress
+import dev.orionlabs.orionmusic.databinding.ItemDownloadBinding
+import dev.orionlabs.orionmusic.databinding.ItemDownloadTaskBinding
+import dev.orionlabs.orionmusic.download.Downloader
+import dev.orionlabs.orionmusic.download.db.models.ContextEntity
+import dev.orionlabs.orionmusic.download.db.models.DownloadEntity
+import dev.orionlabs.orionmusic.download.db.models.TaskType
+import dev.orionlabs.orionmusic.download.tasks.BaseTask.Companion.getTitle
+import dev.orionlabs.orionmusic.ui.common.ExceptionUtils
+import dev.orionlabs.orionmusic.ui.common.GridAdapter
+import dev.orionlabs.orionmusic.utils.image.ImageUtils.loadAsCircle
+import dev.orionlabs.orionmusic.utils.image.ImageUtils.loadInto
+import dev.orionlabs.orionmusic.utils.ui.scrolling.ScrollAnimListAdapter
+import dev.orionlabs.orionmusic.utils.ui.scrolling.ScrollAnimViewHolder
 
 class DownloadsAdapter(
     private val listener: Listener,
