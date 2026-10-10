@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.playback
+package dev.orionlabs.orionmusic.playback
 
 import android.content.Context
 import android.os.Bundle
@@ -6,8 +6,8 @@ import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
 import androidx.media3.session.CommandButton
 import androidx.media3.session.SessionCommand
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.playback.MediaItemUtils.isLiked
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.playback.MediaItemUtils.isLiked
 
 object PlayerCommands {
     val likeCommand = SessionCommand("liked", Bundle.EMPTY)
