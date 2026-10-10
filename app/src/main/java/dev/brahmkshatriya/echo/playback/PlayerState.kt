@@ -1,12 +1,12 @@
-package dev.brahmkshatriya.echo.playback
+package dev.orionlabs.orionmusic.playback
 
 import androidx.media3.common.MediaItem
-import dev.brahmkshatriya.echo.common.helpers.Page
-import dev.brahmkshatriya.echo.common.models.EchoMediaItem
-import dev.brahmkshatriya.echo.common.models.Streamable
-import dev.brahmkshatriya.echo.common.models.Track
-import dev.brahmkshatriya.echo.playback.MediaItemUtils.context
-import dev.brahmkshatriya.echo.playback.MediaItemUtils.track
+import dev.orionlabs.orionmusic.common.helpers.Page
+import dev.orionlabs.orionmusic.common.models.EchoMediaItem
+import dev.orionlabs.orionmusic.common.models.Streamable
+import dev.orionlabs.orionmusic.common.models.Track
+import dev.orionlabs.orionmusic.playback.MediaItemUtils.context
+import dev.orionlabs.orionmusic.playback.MediaItemUtils.track
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import java.util.WeakHashMap
