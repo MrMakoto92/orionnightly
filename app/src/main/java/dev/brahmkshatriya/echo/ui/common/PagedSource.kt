@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.common
+package dev.orionlabs.orionmusic.ui.common
 
 import androidx.paging.LoadState
 import androidx.paging.LoadStates
@@ -7,7 +7,7 @@ import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import dev.brahmkshatriya.echo.common.helpers.PagedData
+import dev.orionlabs.orionmusic.common.helpers.PagedData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flowOn
 
