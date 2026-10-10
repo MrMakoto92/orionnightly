@@ -1,13 +1,13 @@
-package dev.brahmkshatriya.echo.ui.common
+package dev.orionlabs.orionmusic.ui.common
 
 import androidx.core.util.toKotlinPair
 import androidx.core.view.doOnLayout
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.utils.ui.UiUtils.dpToPx
-import dev.brahmkshatriya.echo.utils.ui.UiUtils.resolveStyledDimension
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.utils.ui.UiUtils.dpToPx
+import dev.orionlabs.orionmusic.utils.ui.UiUtils.resolveStyledDimension
 import kotlin.math.floor
 
 interface GridAdapter {
