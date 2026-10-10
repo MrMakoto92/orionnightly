@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.common
+package dev.orionlabs.orionmusic.ui.common
 
 import android.view.View
 import android.view.ViewGroup
@@ -7,11 +7,11 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.snackbar.Snackbar
-import dev.brahmkshatriya.echo.MainActivity
-import dev.brahmkshatriya.echo.common.models.Message
-import dev.brahmkshatriya.echo.di.App
-import dev.brahmkshatriya.echo.utils.ContextUtils.observe
-import dev.brahmkshatriya.echo.utils.ui.UiUtils.dpToPx
+import dev.orionlabs.orionmusic.MainActivity
+import dev.orionlabs.orionmusic.common.models.Message
+import dev.orionlabs.orionmusic.di.App
+import dev.orionlabs.orionmusic.utils.ContextUtils.observe
+import dev.orionlabs.orionmusic.utils.ui.UiUtils.dpToPx
 import kotlinx.coroutines.launch
 import org.koin.android.ext.android.inject
 import java.util.WeakHashMap
