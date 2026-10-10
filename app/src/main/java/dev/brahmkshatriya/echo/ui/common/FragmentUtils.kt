@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.common
+package dev.orionlabs.orionmusic.ui.common
 
 import android.content.Intent
 import android.net.Uri
@@ -13,18 +13,18 @@ import androidx.fragment.app.commit
 import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED
 import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED
 import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN
-import dev.brahmkshatriya.echo.MainActivity
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.models.Album
-import dev.brahmkshatriya.echo.common.models.Artist
-import dev.brahmkshatriya.echo.common.models.EchoMediaItem
-import dev.brahmkshatriya.echo.common.models.Playlist
-import dev.brahmkshatriya.echo.common.models.Track
-import dev.brahmkshatriya.echo.ui.common.SnackBarHandler.Companion.createSnack
-import dev.brahmkshatriya.echo.ui.download.DownloadFragment
-import dev.brahmkshatriya.echo.ui.extensions.ExtensionsViewModel
-import dev.brahmkshatriya.echo.ui.extensions.WebViewUtils.onWebViewIntent
-import dev.brahmkshatriya.echo.ui.media.MediaFragment
+import dev.orionlabs.orionmusic.MainActivity
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.common.models.Album
+import dev.orionlabs.orionmusic.common.models.Artist
+import dev.orionlabs.orionmusic.common.models.EchoMediaItem
+import dev.orionlabs.orionmusic.common.models.Playlist
+import dev.orionlabs.orionmusic.common.models.Track
+import dev.orionlabs.orionmusic.ui.common.SnackBarHandler.Companion.createSnack
+import dev.orionlabs.orionmusic.ui.download.DownloadFragment
+import dev.orionlabs.orionmusic.ui.extensions.ExtensionsViewModel
+import dev.orionlabs.orionmusic.ui.extensions.WebViewUtils.onWebViewIntent
+import dev.orionlabs.orionmusic.ui.media.MediaFragment
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 object FragmentUtils {
