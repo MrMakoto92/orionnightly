@@ -1,7 +1,7 @@
-package dev.brahmkshatriya.echo.ui.extensions.list
+package dev.orionlabs.orionmusic.ui.extensions.list
 
 import androidx.lifecycle.ViewModel
-import dev.brahmkshatriya.echo.common.Extension
+import dev.orionlabs.orionmusic.common.Extension
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 
