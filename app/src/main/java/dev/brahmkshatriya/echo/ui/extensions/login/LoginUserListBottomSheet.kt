@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.extensions.login
+package dev.orionlabs.orionmusic.ui.extensions.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,15 +7,15 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.button.MaterialButtonToggleGroup.OnButtonCheckedListener
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.databinding.DialogLoginUserListBinding
-import dev.brahmkshatriya.echo.databinding.ItemExtensionButtonBinding
-import dev.brahmkshatriya.echo.extensions.db.models.CurrentUser
-import dev.brahmkshatriya.echo.extensions.db.models.UserEntity.Companion.toEntity
-import dev.brahmkshatriya.echo.ui.common.FragmentUtils.openFragment
-import dev.brahmkshatriya.echo.utils.ContextUtils.observe
-import dev.brahmkshatriya.echo.utils.image.ImageUtils.loadAsCircle
-import dev.brahmkshatriya.echo.utils.ui.AutoClearedValue.Companion.autoCleared
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.databinding.DialogLoginUserListBinding
+import dev.orionlabs.orionmusic.databinding.ItemExtensionButtonBinding
+import dev.orionlabs.orionmusic.extensions.db.models.CurrentUser
+import dev.orionlabs.orionmusic.extensions.db.models.UserEntity.Companion.toEntity
+import dev.orionlabs.orionmusic.ui.common.FragmentUtils.openFragment
+import dev.orionlabs.orionmusic.utils.ContextUtils.observe
+import dev.orionlabs.orionmusic.utils.image.ImageUtils.loadAsCircle
+import dev.orionlabs.orionmusic.utils.ui.AutoClearedValue.Companion.autoCleared
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 
 class LoginUserListBottomSheet : BottomSheetDialogFragment() {
