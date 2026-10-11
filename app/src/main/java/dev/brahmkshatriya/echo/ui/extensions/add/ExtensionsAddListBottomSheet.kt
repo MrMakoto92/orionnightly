@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.extensions.add
+package dev.orionlabs.orionmusic.ui.extensions.add
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ConcatAdapter
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import dev.brahmkshatriya.echo.databinding.DialogExtensionsAddListBinding
-import dev.brahmkshatriya.echo.ui.extensions.ExtensionsViewModel
-import dev.brahmkshatriya.echo.utils.ContextUtils.observe
-import dev.brahmkshatriya.echo.utils.ui.AutoClearedValue.Companion.autoCleared
+import dev.orionlabs.orionmusic.databinding.DialogExtensionsAddListBinding
+import dev.orionlabs.orionmusic.ui.extensions.ExtensionsViewModel
+import dev.orionlabs.orionmusic.utils.ContextUtils.observe
+import dev.orionlabs.orionmusic.utils.ui.AutoClearedValue.Companion.autoCleared
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
