@@ -1,15 +1,15 @@
-package dev.brahmkshatriya.echo.ui.extensions.add
+package dev.orionlabs.orionmusic.ui.extensions.add
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dev.brahmkshatriya.echo.common.helpers.ContinuationCallback.Companion.await
-import dev.brahmkshatriya.echo.di.App
-import dev.brahmkshatriya.echo.extensions.ExtensionLoader
-import dev.brahmkshatriya.echo.extensions.exceptions.InvalidExtensionListException
-import dev.brahmkshatriya.echo.ui.extensions.ExtensionsViewModel
-import dev.brahmkshatriya.echo.utils.AppUpdater.downloadUpdate
-import dev.brahmkshatriya.echo.utils.AppUpdater.getUpdateFileUrl
-import dev.brahmkshatriya.echo.utils.Serializer.toData
+import dev.orionlabs.orionmusic.common.helpers.ContinuationCallback.Companion.await
+import dev.orionlabs.orionmusic.di.App
+import dev.orionlabs.orionmusic.extensions.ExtensionLoader
+import dev.orionlabs.orionmusic.extensions.exceptions.InvalidExtensionListException
+import dev.orionlabs.orionmusic.ui.extensions.ExtensionsViewModel
+import dev.orionlabs.orionmusic.utils.AppUpdater.downloadUpdate
+import dev.orionlabs.orionmusic.utils.AppUpdater.getUpdateFileUrl
+import dev.orionlabs.orionmusic.utils.Serializer.toData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
