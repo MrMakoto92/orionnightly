@@ -1,17 +1,17 @@
-package dev.brahmkshatriya.echo.ui.extensions.add
+package dev.orionlabs.orionmusic.ui.extensions.add
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.models.ImageHolder.Companion.toImageHolder
-import dev.brahmkshatriya.echo.databinding.ItemExtensionAddBinding
-import dev.brahmkshatriya.echo.databinding.ItemExtensionAddFooterBinding
-import dev.brahmkshatriya.echo.databinding.ItemExtensionAddHeaderBinding
-import dev.brahmkshatriya.echo.utils.image.ImageUtils.loadAsCircle
-import dev.brahmkshatriya.echo.utils.ui.scrolling.ScrollAnimViewHolder
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.common.models.ImageHolder.Companion.toImageHolder
+import dev.orionlabs.orionmusic.databinding.ItemExtensionAddBinding
+import dev.orionlabs.orionmusic.databinding.ItemExtensionAddFooterBinding
+import dev.orionlabs.orionmusic.databinding.ItemExtensionAddHeaderBinding
+import dev.orionlabs.orionmusic.utils.image.ImageUtils.loadAsCircle
+import dev.orionlabs.orionmusic.utils.ui.scrolling.ScrollAnimViewHolder
 
 class ExtensionsAddListAdapter(
     val listener: Listener
