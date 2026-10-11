@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.extensions.add
+package dev.orionlabs.orionmusic.ui.extensions.add
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,13 +7,13 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.databinding.DialogExtensionAddBinding
-import dev.brahmkshatriya.echo.extensions.InstallationUtils.openFileSelector
-import dev.brahmkshatriya.echo.ui.common.SnackBarHandler.Companion.createSnack
-import dev.brahmkshatriya.echo.ui.extensions.ExtensionsViewModel
-import dev.brahmkshatriya.echo.utils.ContextUtils.observe
-import dev.brahmkshatriya.echo.utils.ui.AutoClearedValue.Companion.autoCleared
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.databinding.DialogExtensionAddBinding
+import dev.orionlabs.orionmusic.extensions.InstallationUtils.openFileSelector
+import dev.orionlabs.orionmusic.ui.common.SnackBarHandler.Companion.createSnack
+import dev.orionlabs.orionmusic.ui.extensions.ExtensionsViewModel
+import dev.orionlabs.orionmusic.utils.ContextUtils.observe
+import dev.orionlabs.orionmusic.utils.ui.AutoClearedValue.Companion.autoCleared
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
