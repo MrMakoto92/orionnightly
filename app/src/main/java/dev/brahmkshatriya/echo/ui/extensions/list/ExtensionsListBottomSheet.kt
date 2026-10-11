@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.extensions.list
+package dev.orionlabs.orionmusic.ui.extensions.list
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,20 +7,20 @@ import android.view.ViewGroup
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.button.MaterialButtonToggleGroup
 import com.google.android.material.button.MaterialButtonToggleGroup.OnButtonCheckedListener
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.models.ExtensionType
-import dev.brahmkshatriya.echo.databinding.DialogExtensionsListBinding
-import dev.brahmkshatriya.echo.databinding.ItemExtensionButtonBinding
-import dev.brahmkshatriya.echo.ui.common.FragmentUtils.openFragment
-import dev.brahmkshatriya.echo.ui.extensions.ExtensionInfoFragment
-import dev.brahmkshatriya.echo.ui.extensions.ExtensionInfoPreference.Companion.getType
-import dev.brahmkshatriya.echo.ui.extensions.ExtensionsViewModel
-import dev.brahmkshatriya.echo.ui.extensions.add.ExtensionsAddBottomSheet
-import dev.brahmkshatriya.echo.ui.extensions.manage.ManageExtensionsFragment
-import dev.brahmkshatriya.echo.ui.player.more.lyrics.LyricsViewModel
-import dev.brahmkshatriya.echo.utils.ContextUtils.observe
-import dev.brahmkshatriya.echo.utils.image.ImageUtils.loadAsCircle
-import dev.brahmkshatriya.echo.utils.ui.AutoClearedValue.Companion.autoCleared
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.common.models.ExtensionType
+import dev.orionlabs.orionmusic.databinding.DialogExtensionsListBinding
+import dev.orionlabs.orionmusic.databinding.ItemExtensionButtonBinding
+import dev.orionlabs.orionmusic.ui.common.FragmentUtils.openFragment
+import dev.orionlabs.orionmusic.ui.extensions.ExtensionInfoFragment
+import dev.orionlabs.orionmusic.ui.extensions.ExtensionInfoPreference.Companion.getType
+import dev.orionlabs.orionmusic.ui.extensions.ExtensionsViewModel
+import dev.orionlabs.orionmusic.ui.extensions.add.ExtensionsAddBottomSheet
+import dev.orionlabs.orionmusic.ui.extensions.manage.ManageExtensionsFragment
+import dev.orionlabs.orionmusic.ui.player.more.lyrics.LyricsViewModel
+import dev.orionlabs.orionmusic.utils.ContextUtils.observe
+import dev.orionlabs.orionmusic.utils.image.ImageUtils.loadAsCircle
+import dev.orionlabs.orionmusic.utils.ui.AutoClearedValue.Companion.autoCleared
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 
 class ExtensionsListBottomSheet : BottomSheetDialogFragment() {
