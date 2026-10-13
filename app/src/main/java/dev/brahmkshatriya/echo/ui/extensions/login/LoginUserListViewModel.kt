@@ -1,14 +1,14 @@
-package dev.brahmkshatriya.echo.ui.extensions.login
+package dev.orionlabs.orionmusic.ui.extensions.login
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dev.brahmkshatriya.echo.common.Extension
-import dev.brahmkshatriya.echo.common.clients.LoginClient
-import dev.brahmkshatriya.echo.extensions.ExtensionLoader
-import dev.brahmkshatriya.echo.extensions.ExtensionUtils.isClient
-import dev.brahmkshatriya.echo.extensions.db.models.CurrentUser
-import dev.brahmkshatriya.echo.extensions.db.models.UserEntity
-import dev.brahmkshatriya.echo.extensions.db.models.UserEntity.Companion.toCurrentUser
+import dev.orionlabs.orionmusic.common.Extension
+import dev.orionlabs.orionmusic.common.clients.LoginClient
+import dev.orionlabs.orionmusic.extensions.ExtensionLoader
+import dev.orionlabs.orionmusic.extensions.ExtensionUtils.isClient
+import dev.orionlabs.orionmusic.extensions.db.models.CurrentUser
+import dev.orionlabs.orionmusic.extensions.db.models.UserEntity
+import dev.orionlabs.orionmusic.extensions.db.models.UserEntity.Companion.toCurrentUser
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
