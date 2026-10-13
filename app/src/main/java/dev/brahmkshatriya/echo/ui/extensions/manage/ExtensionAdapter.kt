@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.extensions.manage
+package dev.orionlabs.orionmusic.ui.extensions.manage
 
 import android.annotation.SuppressLint
 import android.content.SharedPreferences
@@ -12,14 +12,14 @@ import androidx.paging.PagingData
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.DiffUtil
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.Extension
-import dev.brahmkshatriya.echo.common.models.ExtensionType
-import dev.brahmkshatriya.echo.databinding.ItemExtensionBinding
-import dev.brahmkshatriya.echo.extensions.ExtensionLoader.Companion.priorityKey
-import dev.brahmkshatriya.echo.ui.feed.EmptyAdapter
-import dev.brahmkshatriya.echo.utils.image.ImageUtils.loadAsCircle
-import dev.brahmkshatriya.echo.utils.ui.scrolling.ScrollAnimViewHolder
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.common.Extension
+import dev.orionlabs.orionmusic.common.models.ExtensionType
+import dev.orionlabs.orionmusic.databinding.ItemExtensionBinding
+import dev.orionlabs.orionmusic.extensions.ExtensionLoader.Companion.priorityKey
+import dev.orionlabs.orionmusic.ui.feed.EmptyAdapter
+import dev.orionlabs.orionmusic.utils.image.ImageUtils.loadAsCircle
+import dev.orionlabs.orionmusic.utils.ui.scrolling.ScrollAnimViewHolder
 
 class
 ExtensionAdapter(
