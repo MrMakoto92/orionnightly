@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.extensions
+package dev.orionlabs.orionmusic.ui.extensions
 
 import org.w3c.dom.Document
 import org.w3c.dom.Node
