@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.extensions
+package dev.orionlabs.orionmusic.ui.extensions
 
 import android.annotation.SuppressLint
 import android.text.SpannableString
@@ -8,22 +8,22 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.Extension
-import dev.brahmkshatriya.echo.common.models.ExtensionType
-import dev.brahmkshatriya.echo.databinding.ItemLoginUserBinding
-import dev.brahmkshatriya.echo.databinding.PreferenceExtensionInfoBinding
-import dev.brahmkshatriya.echo.extensions.db.models.CurrentUser
-import dev.brahmkshatriya.echo.extensions.db.models.UserEntity.Companion.toEntity
-import dev.brahmkshatriya.echo.ui.common.FragmentUtils.openFragment
-import dev.brahmkshatriya.echo.ui.extensions.ExtensionInfoFragment.Companion.openLink
-import dev.brahmkshatriya.echo.ui.extensions.login.LoginFragment
-import dev.brahmkshatriya.echo.ui.extensions.login.LoginUserListBottomSheet
-import dev.brahmkshatriya.echo.ui.extensions.login.LoginUserListViewModel
-import dev.brahmkshatriya.echo.utils.ContextUtils.observe
-import dev.brahmkshatriya.echo.utils.image.ImageUtils.loadInto
-import dev.brahmkshatriya.echo.utils.ui.AutoClearedValue.Companion.addOnDestroyObserver
-import dev.brahmkshatriya.echo.utils.ui.SimpleItemSpan
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.common.Extension
+import dev.orionlabs.orionmusic.common.models.ExtensionType
+import dev.orionlabs.orionmusic.databinding.ItemLoginUserBinding
+import dev.orionlabs.orionmusic.databinding.PreferenceExtensionInfoBinding
+import dev.orionlabs.orionmusic.extensions.db.models.CurrentUser
+import dev.orionlabs.orionmusic.extensions.db.models.UserEntity.Companion.toEntity
+import dev.orionlabs.orionmusic.ui.common.FragmentUtils.openFragment
+import dev.orionlabs.orionmusic.ui.extensions.ExtensionInfoFragment.Companion.openLink
+import dev.orionlabs.orionmusic.ui.extensions.login.LoginFragment
+import dev.orionlabs.oriommusic.ui.extensions.login.LoginUserListBottomSheet
+import dev.orionlabs.orionmusic.ui.extensions.login.LoginUserListViewModel
+import dev.orionlabs.orionmusic.utils.ContextUtils.observe
+import dev.orionlabs.orionmusic.utils.image.ImageUtils.loadInto
+import dev.orionlabs.orionmusic.utils.ui.AutoClearedValue.Companion.addOnDestroyObserver
+import dev.orionlabs.orionmusic.utils.ui.SimpleItemSpan
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 
 class ExtensionInfoPreference(
