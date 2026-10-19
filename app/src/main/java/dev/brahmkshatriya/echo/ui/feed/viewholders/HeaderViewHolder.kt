@@ -1,11 +1,11 @@
-package dev.brahmkshatriya.echo.ui.feed.viewholders
+package dev.orionlabs.orionmusic.ui.feed.viewholders
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import dev.brahmkshatriya.echo.databinding.ItemShelfHeaderBinding
-import dev.brahmkshatriya.echo.ui.feed.FeedClickListener
-import dev.brahmkshatriya.echo.ui.feed.FeedType
+import dev.orionlabs.orionmusic.databinding.ItemShelfHeaderBinding
+import dev.orionlabs.orionmusic.ui.feed.FeedClickListener
+import dev.orionlabs.orionmusic.ui.feed.FeedType
 
 class HeaderViewHolder(
     parent: ViewGroup,
