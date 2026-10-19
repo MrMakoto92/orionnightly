@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.feed.viewholders
+package dev.orionlabs.orionmusic.ui.feed.viewholders
 
 import android.graphics.Color
 import android.graphics.Color.HSVToColor
@@ -9,13 +9,13 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.toColorInt
 import androidx.core.view.isVisible
 import com.google.android.material.color.MaterialColors
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.models.Shelf
-import dev.brahmkshatriya.echo.databinding.ItemShelfCategoryBinding
-import dev.brahmkshatriya.echo.ui.feed.FeedClickListener
-import dev.brahmkshatriya.echo.ui.feed.FeedType
-import dev.brahmkshatriya.echo.utils.image.ImageUtils.loadInto
-import dev.brahmkshatriya.echo.utils.ui.UiUtils.isNightMode
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.common.models.Shelf
+import dev.orionlabs.orionmusic.databinding.ItemShelfCategoryBinding
+import dev.orionlabs.orionmusic.ui.feed.FeedClickListener
+import dev.orionlabs.orionmusic.ui.feed.FeedType
+import dev.orionlabs.orionmusic.utils.image.ImageUtils.loadInto
+import dev.orionlabs.orionmusic.utils.ui.UiUtils.isNightMode
 import kotlin.math.roundToInt
 
 class CategoryViewHolder(
