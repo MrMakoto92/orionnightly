@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.feed.viewholders.shelf
+package dev.orionlabs.orionmusic.ui.feed.viewholders.shelf
 
 import android.graphics.drawable.Animatable
 import android.view.Gravity
@@ -8,20 +8,20 @@ import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
-import dev.brahmkshatriya.echo.common.models.Artist
-import dev.brahmkshatriya.echo.common.models.EchoMediaItem
-import dev.brahmkshatriya.echo.common.models.Track
-import dev.brahmkshatriya.echo.databinding.ItemShelfCategoryBinding
-import dev.brahmkshatriya.echo.databinding.ItemShelfListsMediaBinding
-import dev.brahmkshatriya.echo.databinding.ItemShelfListsThreeTracksBinding
-import dev.brahmkshatriya.echo.playback.PlayerState
-import dev.brahmkshatriya.echo.playback.PlayerState.Current.Companion.isPlaying
-import dev.brahmkshatriya.echo.ui.feed.FeedClickListener
-import dev.brahmkshatriya.echo.ui.feed.viewholders.CategoryViewHolder.Companion.bind
-import dev.brahmkshatriya.echo.ui.feed.viewholders.MediaViewHolder.Companion.applyCover
-import dev.brahmkshatriya.echo.ui.feed.viewholders.MediaViewHolder.Companion.bind
-import dev.brahmkshatriya.echo.ui.feed.viewholders.MediaViewHolder.Companion.subtitle
-import dev.brahmkshatriya.echo.utils.ui.scrolling.ScrollAnimViewHolder
+import dev.orionlabs.orionmusic.common.models.Artist
+import dev.orionlabs.orionmusic.common.models.EchoMediaItem
+import dev.orionlabs.orionmusic.common.models.Track
+import dev.orionlabs.orionmusic.databinding.ItemShelfCategoryBinding
+import dev.orionlabs.orionmusic.databinding.ItemShelfListsMediaBinding
+import dev.orionlabs.orionmusic.databinding.ItemShelfListsThreeTracksBinding
+import dev.orionlabs.orionmusic.playback.PlayerState
+import dev.orionlabs.orionmusic.playback.PlayerState.Current.Companion.isPlaying
+import dev.orionlabs.orionmusic.ui.feed.FeedClickListener
+import dev.orionlabs.orionmusic.ui.feed.viewholders.CategoryViewHolder.Companion.bind
+import dev.orionlabs.orionmusic.ui.feed.viewholders.MediaViewHolder.Companion.applyCover
+import dev.orionlabs.orionmusic.ui.feed.viewholders.MediaViewHolder.Companion.bind
+import dev.orionlabs.orionmusic.ui.feed.viewholders.MediaViewHolder.Companion.subtitle
+import dev.orionlabs.orionmusic.utils.ui.scrolling.ScrollAnimViewHolder
 
 sealed class ShelfViewHolder<T : ShelfType>(view: View) : ScrollAnimViewHolder(view) {
     var scrollX = 0
