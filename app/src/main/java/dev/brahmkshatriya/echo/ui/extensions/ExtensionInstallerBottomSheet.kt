@@ -1,4 +1,4 @@
-package dev.brahmkshatriya.echo.ui.extensions
+package dev.orionlabs.orionmusic.ui.extensions
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -15,14 +15,14 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.common.models.ImportType
-import dev.brahmkshatriya.echo.databinding.DialogExtensionInstallerBinding
-import dev.brahmkshatriya.echo.extensions.exceptions.ExtensionLoaderException
-import dev.brahmkshatriya.echo.extensions.repo.ExtensionParser.Companion.PACKAGE_FLAGS
-import dev.brahmkshatriya.echo.ui.extensions.ExtensionInfoPreference.Companion.getType
-import dev.brahmkshatriya.echo.utils.image.ImageUtils.loadAsCircle
-import dev.brahmkshatriya.echo.utils.ui.AutoClearedValue.Companion.autoCleared
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.common.models.ImportType
+import dev.orionlabs.orionmusic.databinding.DialogExtensionInstallerBinding
+import dev.orionlabs.orionmusic.extensions.exceptions.ExtensionLoaderException
+import dev.orionlabs.orionmusic.extensions.repo.ExtensionParser.Companion.PACKAGE_FLAGS
+import dev.orionlabs.orionmusic.ui.extensions.ExtensionInfoPreference.Companion.getType
+import dev.orionlabs.orionmusic.utils.image.ImageUtils.loadAsCircle
+import dev.orionlabs.orionmusic.utils.ui.AutoClearedValue.Companion.autoCleared
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 import java.io.File
