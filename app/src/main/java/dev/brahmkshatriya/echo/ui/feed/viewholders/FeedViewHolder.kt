@@ -1,9 +1,9 @@
-package dev.brahmkshatriya.echo.ui.feed.viewholders
+package dev.orionlabs.orionmusic.ui.feed.viewholders
 
 import android.view.View
-import dev.brahmkshatriya.echo.playback.PlayerState
-import dev.brahmkshatriya.echo.ui.feed.FeedType
-import dev.brahmkshatriya.echo.utils.ui.scrolling.ScrollAnimViewHolder
+import dev.orionlabs.orionmusic.playback.PlayerState
+import dev.orionlabs.orionmusic.ui.feed.FeedType
+import dev.orionlabs.orionmusic.utils.ui.scrolling.ScrollAnimViewHolder
 
 sealed class FeedViewHolder<T : FeedType>(view: View) : ScrollAnimViewHolder(view) {
     abstract fun bind(feed: T)
