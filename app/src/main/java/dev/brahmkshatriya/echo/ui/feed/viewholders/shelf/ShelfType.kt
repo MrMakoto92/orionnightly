@@ -1,8 +1,8 @@
-package dev.brahmkshatriya.echo.ui.feed.viewholders.shelf
+package dev.orionlabs.orionmusic.ui.feed.viewholders.shelf
 
-import dev.brahmkshatriya.echo.common.models.EchoMediaItem
-import dev.brahmkshatriya.echo.common.models.Shelf
-import dev.brahmkshatriya.echo.common.models.Track
+import dev.orionlabs.orionmusic.common.models.EchoMediaItem
+import dev.orionlabs.orionmusic.common.models.Shelf
+import dev.orionlabs.orionmusic.common.models.Track
 
 sealed interface ShelfType {
     enum class Enum {
