@@ -1,14 +1,14 @@
-package dev.brahmkshatriya.echo.ui.extensions
+package dev.orionlabs.orionmusic.ui.extensions
 
 import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import android.widget.Toast
 import androidx.core.net.toFile
-import dev.brahmkshatriya.echo.MainActivity.Companion.getMainActivity
-import dev.brahmkshatriya.echo.R
-import dev.brahmkshatriya.echo.extensions.InstallationUtils.getTempFile
-import dev.brahmkshatriya.echo.utils.ContextUtils.getTempFile
+import dev.orionlabs.orionmusic.MainActivity.Companion.getMainActivity
+import dev.orionlabs.orionmusic.R
+import dev.orionlabs.orionmusic.extensions.InstallationUtils.getTempFile
+import dev.orionlabs.orionmusic.utils.ContextUtils.getTempFile
 import java.io.File
 
 class ExtensionOpenerActivity : Activity() {
